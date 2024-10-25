@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.frex {
+  display: flex;
+}
+
 .red--box {
   width: 400px;
   height: 100px;
