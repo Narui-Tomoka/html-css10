@@ -1,11 +1,21 @@
 @charset "utf-8";
 
-body {
+* {
   margin: 0;
 }
 
-.frex {
-  display: flex;
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.pb--box {
+  float: left;
+}
+
+.pbob--box {
+  float: left;
 }
 
 .red--box {
@@ -18,6 +28,7 @@ body {
   width: 150px;
   height: 250px;
   background: #00ff51;
+  float: left;
 }
 
 .purple--box {
@@ -32,10 +43,11 @@ body {
   background: #0093b7;
 }
 
-.beige--box {
+.orange--box {
   width: 100px;
   height: 150px;
   background: #ff9e6b;
+  float: left;
 }
 
 .brown--box {
@@ -43,6 +55,7 @@ body {
   height: 100px;
   background: #8c2727;
 }
+
 .yellow--box {
   width: 400px;
   height: 100px;
